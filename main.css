@@ -1,0 +1,50 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #f8f9fa;
+    
+}
+.btn-add {
+  background-color: #ebece7;
+  border-radius: 50%;
+}
+.btn-save:hover {
+  color: #6e7a00;
+  background-color: #ffff;
+  border-color: #6e7a00;
+}
+.btn-cancel:hover {
+  color: #ffff;
+  background-color: #7c8b00;
+  border-color: #7c8b00;
+}
+.btn-cancel{
+    background-color: #ffff;
+    color: #7c8b00;
+    border-color: #7c8b00;
+}
+.modal-style {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.modal-style .form-group input {
+  border: none;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 0px 0px 0px 10px;
+  border-radius: 0px;
+  height: 30px;
+}
+.bg-custom {
+  background-color: #7c8b00; /* your color */
+}
+
+.bg-custom-yellow {
+  color: #7c8b00;
+}
+.border-custom-yellow {
+  border-color: #7c8b00;
+}
+.custom-header {
+  background: linear-gradient(to right, #7c8b00, #b3bd00);
+}
